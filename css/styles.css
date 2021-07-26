@@ -27,3 +27,20 @@ text-align: center;
 .header{
     text-align: center;
 }
+.wedo div{
+    padding-left: 20%;
+}
+#icons{
+    text-align: center;
+    display: flex;
+    align-content: space-between;
+}
+#hidden{
+    display: none;
+  }
+  #hidden1{
+    display: none;
+  }
+  #hidden2{
+    display: none;
+  }
