@@ -64,3 +64,17 @@ $(document).ready(function(){
     $("#overlay8").hide();
   });
 });
+$("form#myForm").on('submit',function(event){
+  event.preventDefault();
+  var name = $("input#name").val();
+  var email = $("input#email").val();
+  var message = $("textarea#message").val();
+  console.log(name)
+
+  if ($("input#name").val() && $("input#email").val() ) {
+      alert ("Hello " + name + ", we are glad to receive your response and will act on the information. Thank you for your ");
+  }
+ else{
+   alert("Please check your credentials and send back your message. We value you")
+ }
+});
