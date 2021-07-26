@@ -88,3 +88,10 @@ display: none;
     background: transparent;
     color:white;
 }
+#sites{
+    display: flex;
+    align-content: space-between;
+    align-items:center;
+    padding-left: 30%;
+   
+}
