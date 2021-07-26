@@ -63,3 +63,6 @@ text-align: center;
     background-position: cover;
     margin-bottom: 3%;
 }
+.text{
+display: none;
+  }
