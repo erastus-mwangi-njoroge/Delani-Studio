@@ -64,7 +64,7 @@ $(document).ready(function(){
     $("#overlay8").hide();
   });
 });
-$("form#myForm").on('submit',function(event){
+$("form.myForm").on('submit',function(event){
   event.preventDefault();
   var name = $("input#name").val();
   var email = $("input#email").val();
