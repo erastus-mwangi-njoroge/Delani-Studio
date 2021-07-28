@@ -66,23 +66,23 @@ text-align: center;
 .text{
 display: none;
   }
-#myForm{
+.myForm{
     margin-left: 25%;
 }
-#myForm input{
+.myForm input{
     background: transparent;
     color:white;
     width: 30%;
     border-color: white;
 }
-#myForm textarea{
+.myForm textarea{
     background: transparent;
     color:white;
     width: 60%;
     border-color: white;
     margin-top: 2%;
 }
-#myForm button{
+.myForm button{
     width: 30%;
     height: 1%;
     background: transparent;
